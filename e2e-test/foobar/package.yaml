@@ -6,4 +6,6 @@ dependencies:
 library:
   source-dirs: src
   dependencies:
+  - lens
   - validity
+  - containers
