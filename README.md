@@ -110,6 +110,8 @@ The default package contains the following `passthru` attributes:
     };
   }
   ```
+  The coverage percentage from the resulting `index.html` can be extracted with `htmlq` like this:
+  `htmlq --text -f index.html -- 'tfoot > tr:last-child > td:nth-child(5)'`.
 
 See the `e2e-test` directory for many more examples.
 
